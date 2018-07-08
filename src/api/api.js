@@ -2,10 +2,6 @@
 
 const router = require('../lib/router.js');
 
-function routesHeader(res) {
-  res.statusCode = 200;
-  res.statusMessage = 'OK';
-
   router.get('/', (req, res) => {
     res.statusCode = 200;
     res.statusMessage = 'OK';
@@ -59,4 +55,3 @@ function routesHeader(res) {
     }
     res.end();
   })
-};
