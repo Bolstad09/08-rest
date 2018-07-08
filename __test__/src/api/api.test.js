@@ -6,7 +6,7 @@ const app = require('./../../../src/app');
 describe('app', () => {
 
   beforeAll(() => {
-    app.start(3000);
+    app.start(3002);
   });
   afterAll(() => {
     app.stop();
